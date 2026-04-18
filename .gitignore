@@ -1,2 +1,4 @@
 out
 requests.http
+.env
+Chirpy
