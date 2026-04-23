@@ -6,10 +6,6 @@ import (
 	"net/http"
 )
 
-type validResponse struct {
-	Valid bool `json:"valid"`
-}
-
 func respondWithError(w http.ResponseWriter, code int, msg string, err error) {
 	if err != nil {
 		log.Println(err)
